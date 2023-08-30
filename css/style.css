@@ -102,6 +102,72 @@ section {
   height: 1440px;
 }
 
+.slider {
+  width: 1012px;
+  height: 581px;
+}
+
+.slider .banner .banner_list .banner_wrap {
+  background: no-repeat url(img/green-chameleon.png);
+}
+
+.slider .banner .banner_list .banner_wrap a {
+  display: flex;
+  height: 581px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.slider .banner .banner_list .banner_wrap a .head_txt {
+  width: 107px;
+  height: 40px;
+  background-color: #ff565c;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .banner .banner_list .banner_wrap a .sub_txt {
+  font-size: 18px;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .banner .banner_list .banner_wrap .card_footer {
+  width: 185px;
+  height: 30px;
+}
+
+.slider .banner .banner_list .banner_wrap .card_footer {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+}
+
+.slider .banner .banner_list .banner_wrap .card_footer ul {
+  display: flex;
+}
+
+.slider .banner .banner_list .banner_wrap .card_footer .share {
+  background: no-repeat url(img/share.png);
+}
+
+.slider .banner .banner_list .banner_wrap .card_footer .views {
+  background: no-repeat url(img/views.png);
+}
+
+.slider .banner .banner_list .banner_wrap .card_footer .comments {
+  background: no-repeat url(img/comments.png);
+}
+
 footer .left_part,
 .center_part,
 .right_part {
